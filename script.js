@@ -11,14 +11,14 @@ num += 12;
 num -= 14;
 num *= 5;
 num /= 7;
-num = ++num;
-num = --num;
+num += 1;
+num -= 1;
 alert(num);
 
 var a=10, b=2, c=5;
 console.log(a + b + c);
 
-var aa =17, bb = 10, d = '7';
+var aa =17, bb = 10, d = 7;
 var cc = aa - bb;
 var result = cc + d;
 console.log(result)
